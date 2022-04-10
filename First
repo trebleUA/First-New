@@ -1,0 +1,6 @@
+this.height = function (newHeight) {
+                height = newHeight;
+                if (grid){
+                    grid.setHeight(height)
+                   }
+            }
